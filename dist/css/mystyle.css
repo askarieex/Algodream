@@ -1,0 +1,85 @@
+/* custom css */
+.features-title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color:#ffffff;
+    letter-spacing: 3px;
+     font-family: 'IBM Plex Sans', sans-serif;
+    margin: 20px 0;
+}
+.features{
+    border-top: 1px solid rgb(73, 73, 73);
+}
+.web-special{
+    padding-top: 32px;
+}
+.cn-top-banner {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(65deg, #0270D7 0, #0F8AFD 100%);
+
+  color: #fff;
+  font-size: 18px;
+}
+.cn-top-banner span a{
+    color: #fff;
+}
+.cn-top-banner i {
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  font-size: 1.05rem;
+  cursor: pointer;
+  color: #fff;
+  transform: translateY(-50%);
+}
+
+
+/* Media queries for smaller screens */
+@media screen and (max-width: 768px) {
+  .cn-top-banner {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .cn-top-banner i {
+    right: 20px;
+    top: 20px;
+    font-size: 1rem;
+  }
+}
+
+/* Media queries for even smaller screens */
+@media screen and (max-width: 480px) {
+  .cn-top-banner {
+    font-size: 16px;
+    /* padding: 15px; */
+  }
+  .cn-top-banner i {
+    right: 10px;
+    top: 15px;
+    font-size: 0.9rem;
+  }
+  .feature-icon{
+
+    margin-left: 50px;
+  }
+}
+.see-portfolio{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.header-logo-image{
+  height: 40px;
+}
